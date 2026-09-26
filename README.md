@@ -2,9 +2,6 @@
 
 A standalone FiveM resource built for **[qb-core](https://github.com/qbcore-fivem/qb-core)**
 that replaces the boring default connecting screen with an airline-style
-**boarding pass**, in the spirit of scripts like
-[Sha4ow's Boarding Pass Script](https://forum.cfx.re/t/standalone-sha4ows-boarding-pass-script-new-update/5151906) —
-but written from scratch as an open, editable resource for this project.
 
 While a player connects, the server generates a personalized boarding pass
 (flight number, seat, gate, terminal, class, route, boarding time) using an
@@ -131,8 +128,7 @@ connect/
 ## Notes & credits
 
 This is an original implementation built for this repository — it does not
-reuse code from any paid/closed-source script. It's inspired by the general
-concept popularized by community "boarding pass" connecting screens (see the
+reuse code from any paid/closed-source script.
 [forum thread](https://forum.cfx.re/t/standalone-sha4ows-boarding-pass-script-new-update/5151906)
 linked above) but was written from scratch against FiveM's public
 `deferrals`/Adaptive Card API and qb-core's public exports, so you're free to
