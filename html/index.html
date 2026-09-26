@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Boarding Pass</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="wrapper" class="hidden">
+        <div id="pass">
+            <div class="stub">
+                <div class="logo-row">
+                    <img id="logo" src="" alt="" />
+                    <div>
+                        <div id="serverName" class="server-name"></div>
+                        <div id="title" class="title"></div>
+                    </div>
+                </div>
+
+                <div class="route-row">
+                    <div class="route-block">
+                        <span class="label" id="lblFrom"></span>
+                        <span class="code" id="originCode"></span>
+                        <span class="place" id="originName"></span>
+                    </div>
+                    <div class="plane">&#9992;</div>
+                    <div class="route-block right">
+                        <span class="label" id="lblTo"></span>
+                        <span class="code" id="destCode"></span>
+                        <span class="place" id="destName"></span>
+                    </div>
+                </div>
+
+                <div class="facts">
+                    <div class="fact"><span class="flabel" id="lblPassenger"></span><span class="fvalue" id="passengerName"></span></div>
+                    <div class="fact"><span class="flabel" id="lblFlight"></span><span class="fvalue" id="flightNumber"></span></div>
+                    <div class="fact"><span class="flabel" id="lblSeat"></span><span class="fvalue" id="seat"></span></div>
+                    <div class="fact"><span class="flabel" id="lblGate"></span><span class="fvalue" id="gateTerminal"></span></div>
+                    <div class="fact"><span class="flabel" id="lblClass"></span><span class="fvalue" id="travelClass"></span></div>
+                    <div class="fact"><span class="flabel" id="lblBoarding"></span><span class="fvalue" id="boardingTime"></span></div>
+                </div>
+            </div>
+
+            <div class="perforation"></div>
+
+            <div class="tear">
+                <div id="seatBig" class="seat-big"></div>
+                <div id="flightBig" class="flight-big"></div>
+                <div class="barcode"></div>
+                <button id="closeBtn"></button>
+            </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
